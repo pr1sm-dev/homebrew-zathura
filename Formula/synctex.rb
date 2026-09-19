@@ -33,10 +33,10 @@ includedir=#{include}
 
 Name: synctex
 Description: SyncTeX parser library
-Version: 1.21.0
+Version: 2.0.0
 Requires.private: zlib
 Libs: -L${libdir} -lsynctex
-Cflags: -I${includedir}/synctex"
+Cflags: -I${includedir}"
     end
 
     mkdir "#{lib}/pkgconfig"
